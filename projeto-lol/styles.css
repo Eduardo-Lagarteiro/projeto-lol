@@ -1,0 +1,252 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a classe "champion" */
+.champion {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/characters.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(248, 244, 244, 0.5);
+}
+
+/* Estilos para a navegação do cabeçalho */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilo para a lista de habilidades */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o texto do guia rápido */
+p {
+    font-size: 16px;
+    color: #070707;
+}
+
+/* ... Estilos anteriores ... */
+
+/* Estilizando as seções dos campeões */
+.champion {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* Limita a largura para melhor legibilidade */
+}
+
+.champion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.champion img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.champion h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.champion ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Estilizando os links externos */
+.champion a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.champion a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando o corpo da página com a imagem de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo de backup para navegadores que não suportam a imagem de fundo */
+    background-image: url('./imagens/lol-logo.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantém a imagem de fundo fixa enquanto a página rola */
+    color: #333; /* Cor do texto geral */
+    padding: 0;
+    margin: 0;
+    opacity: 0.9; /* Reduza a opacidade da imagem de fundo (por exemplo, 90%) */
+}
+
+
+/* Estilizando as seções dos campeões */
+.champion {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; /* Borda mais arredondada */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    max-width: 800px;
+    transition: transform 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Efeito de escala (hover) para as seções de campeões */
+.champion:hover {
+    transform: scale(1.03); /* Aumenta a escala em 3% ao passar o mouse */
+}
+
+
+/* Outros estilos anteriores... */
+
+/* Estilizando o texto do guia rápido para melhor visibilidade */
+.champion p {
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    line-height: 1.4; /* Espaçamento entre linhas para melhor legibilidade */
+    margin-top: 15px;
+}
+
+/* Estilizando o texto das habilidades para melhor visibilidade */
+.champion ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #007BFF; /* Cor para as habilidades */
+    font-weight: bold;
+}
+
+/* Estilizando os links externos para informações adicionais */
+.champion a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.champion a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para links externos */
+.external-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando os cabeçalhos das seções de campeões */
+.champion h2 {
+    font-size: 28px; /* Tamanho maior para os títulos */
+    margin-bottom: 15px; /* Espaçamento maior abaixo dos títulos */
+    color: #007BFF; /* Cor azul para os títulos */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto para destaque */
+}
+
+/* Estilizando os títulos dos guias rápidos */
+.champion h3 {
+    font-size: 20px; /* Tamanho maior para os títulos dos guias */
+    margin-top: 15px;
+    color: #333; /* Cor do texto dos guias */
+}
+
+/* Estilizando o cabeçalho das rotas */
+.route-header {
+    position: sticky; /* Fixa o cabeçalho no topo da página */
+    top: 0;
+    background-color: #007BFF; /* Cor chamativa para o fundo */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 2; /* Para garantir que esteja acima de outros elementos */
+}
+
+/* Estilizando os links das rotas */
+.route-header a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px; /* Espaçamento entre os links */
+}
+
+.route-header a:hover {
+    text-decoration: underline;
+}
+
+
